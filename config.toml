@@ -1,0 +1,47 @@
+base_url = "alonsomoya.com"
+title = "Hola"
+description = "💻 ✈️ 🚴 🏂"
+
+# The default language; used in feeds.
+default_language = "en"
+
+# The site theme to use.
+theme = "hallo"
+
+compile_sass = true
+highlight_code = true
+highlight_theme = "boron"
+
+build_search_index = false
+generate_feed = true
+feed_filename = "index.xml"
+
+############################
+[extra]
+greeting = "¡Hola!"
+
+iam = "I am"
+
+links = [
+    { title = "E-Mail", url = "mailto:jose@alonsomoya", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com", icon = "github" },
+    { title = "Twitter", url = "https://twitter.com", icon = "twitter" }
+]
+
+[extra.author]
+name = "Jose"
+
+[extra.theme]
+background = "#6FCDBD"
+foreground = "#FFF"
+hover = "#333"
+
+[author]
+name = "Jose Alonso"
+homepage = "https://alonsomoya.com"
+
+[original]
+author =  "Jan Baudisch/Emiel Hollander"
+homepage = "https://janbaudisch.dev / https://themes.gohugo.io/theme/hallo-hugo/"
+repo = "https://github.com/EmielH/hallo-hugo"
+
