@@ -6,9 +6,9 @@
     
         <title>{{ config.title }}</title>
     
-        <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='fontawesome/css/fontawesome.css') }}">
-        <link rel="stylesheet" href="{{ get_url(path='hallo.css') }}">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+        <link rel="stylesheet" href="hallo.css">
 
         {% if config.extra.theme %}
             <style>
@@ -35,7 +35,7 @@
     <body>
         <main>
             <div class="column left">
-                <img src="{{ get_url(path='images/portrait.jpg') }}" class="portrait" alt="Portrait" />
+                <img src="images/portrait.jpg" class="portrait" alt="Portrait" />
             </div>
             <div class="column right">
                 <h1>{{ config.extra.greeting | default(value="Hello") }}</h1>
