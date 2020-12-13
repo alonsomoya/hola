@@ -24,8 +24,9 @@ iam = "I am"
 
 links = [
     { title = "E-Mail", url = "mailto:jose@alonsomoya", iconset = "fas", icon = "envelope" },
-    { title = "GitHub", url = "https://github.com", icon = "github" },
-    { title = "Twitter", url = "https://twitter.com", icon = "twitter" }
+    { title = "Linkedin", url = "https://www.linkedin.com/in/jjavieralonso/", icon = "linkedin" },
+    { title = "GitHub", url = "https://github.com/pant03/", icon = "github" },
+    { title = "Twitter", url = "https://twitter.com/JJAlonso91", icon = "twitter" }
 ]
 
 [extra.author]
