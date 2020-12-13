@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hola
+  namespace: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      bb: web
+  template:
+    metadata:
+      labels:
+        bb: web
+    spec:
+      containers:
+      - name: hola-site
+        image: josealo/hola:latest
+      imagePullSecrets:
+        - name: myregistrykey
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bb-entrypoint
+  namespace: web
+spec:
+  type: NodePort
+  selector:
+    bb: web
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 30002
+
+
