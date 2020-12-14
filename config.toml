@@ -26,7 +26,8 @@ links = [
     { title = "E-Mail", url = "mailto:jose@alonsomoya", iconset = "fas", icon = "envelope" },
     { title = "Linkedin", url = "https://www.linkedin.com/in/jjavieralonso/", icon = "linkedin" },
     { title = "GitHub", url = "https://github.com/pant03/", icon = "github" },
-    { title = "Twitter", url = "https://twitter.com/JJAlonso91", icon = "twitter" }
+    { title = "Twitter", url = "https://twitter.com/JJAlonso91", icon = "twitter" },
+    { title = "CV", iconset="fa", url = "https://raw.githubusercontent.com/pant03/cv/master/CV_JoseAlonso.pdf", icon = "file-pdf" }
 ]
 
 [extra.author]
