@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/alonsomoya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alonsomoya.com
+  * I am alonsomoya (https://keybase.io/alonsomoya) on keybase.
+  * I have a public key with fingerprint 8342 87CF DE2F FA24 ED38  7384 A3B5 8367 F47A 7E45
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f5af222dbf25a72338c87c112de4fd63c0350234def9baa759e678453d8f4d520a",
+      "fingerprint": "834287cfde2ffa24ed387384a3b58367f47a7e45",
+      "host": "keybase.io",
+      "key_id": "a3b58367f47a7e45",
+      "kid": "0101f5af222dbf25a72338c87c112de4fd63c0350234def9baa759e678453d8f4d520a",
+      "uid": "0b761d69783431ee4b0005c375242919",
+      "username": "alonsomoya"
+    },
+    "service": {
+      "hostname": "alonsomoya.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1612894233,
+  "expire_in": 157680000,
+  "prev": "025ba2c098b767877f082178193188535d05752e2bc5fe455993c32a8e74d50e",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtIFUEYvdfM6JJRBFFgZIMQxs12Z3Z2Zm/0LimiogcFZV13d2Z1S+/edjdL
+L5VUUJE/jIIQKSgLe0hBaYRGlFDRA7T3A7UikCQkeiBlz9kev+pnv4b55pwz5xy+
+6swBoUi4rml70YeKLXPCt3qMUCFoH5MChsPKQSwF1vGfBy9h3PPj62wGYkCSJdnC
+ugUhZIYFsU4gQtSkxJRlyLhiMRWZEsISRArjlmboOsEaVwlVMGLUUhiGkg6iwLIT
+RdxNunbCF7IUKVBoWIxDy9KhwhmiBFFFRwamSCWWQnTCFSyIxY4XMIQ5Q/d4nu2I
+mbjEf9r7B/4/+97wS84gqsxUjQjjSOZcMSRJwiYiGCpQk7UA6HE3oZfywFWJk/Cc
+UqdcB5ujQMzLbJMH1QZZ/sLkmU6p4Cddx3dMp0S8Fft+0osFXL88GYA3ciP+WyZu
+2AkmuhSMMu56tpMAMVkgTd8OdGVVhlRTRNgo4JuStsvjdoDARKXCshT8w8uCRBAX
+GDo0JY2KbIQSYkkUyoTKGpIpxQgzCYt4HBomtkS1WNOQiaBOORHlSBwEydYnHBBT
+hE+9SGh6dlFC9ze4HGyO7A6j9FA4Ehozclz69pk727om9ef0Um/Hn/0bmBYsXygy
+eNifiTZ10He/r6Fy7qNRTxYUdj1t9GZGttWkZhxfUXCuXmoeXlEbeUzAntmxaXPm
+4Sb2rOPEp5Fr076vebzvfRqA7NbNB7XXOwuqWw4c2pta7FQvS0/l1p+Pwu7+nNv7
+b3bnnnh1rKfGPXy6a3oziqKGprrl/d9WPT/40nhYNWF0h5E54t6Uox+zZ52sLOa1
+N3aRI/WzGvc1an1Z+fcn1yxvycw6k5UxeGtPa92QvAx95diJ6pv7k66+ca/cye44
+9OBsW9/c1Q2d7PO7JS9OhauW9l6bv6jz7pfWt1L75/xS9eyCr/LCym+vcy7Hz8eq
+mi9ljV9R4VxcNjRjV45VOPRC7tcPhaey/YZz+dk/AA==
+=kkx4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alonsomoya
+
+==================================================================
+

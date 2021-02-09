@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -46,7 +47,11 @@
                 {% if config.extra.links %}
                     <div class="links">
                         {% for link in config.extra.links %}
-                            <a rel="me" href="{{ link.url }}" title="{{ link.title }}">
+                        {% if link.onclick %}
+                        <a rel="me" href="{{ link.url }}" title="{{ link.title }}" onclick="{{ link.onclick  }}">
+                        {% else %}
+                        <a rel="me" href="{{ link.url }}" title="{{ link.title }}">
+                        {% endif %}
                                 {% if link.iconset %}
                                     <span class="{{ link.iconset }} {{ 'fa-' ~ link.icon }}"></span>
                                 {% else %}
