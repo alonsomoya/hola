@@ -30,7 +30,7 @@ links = [
     { title = "Instagram", url = "https://www.instagram.com/jose.alo/", icon = "instagram" },
     { title = "Pubkey", iconset="fa", url = "https://keybase.io/alonsomoya/pgp_keys.asc", icon = "key" },
     { title = "Keybase", iconset="fab", url = "https://keybase.io/alonsomoya", icon = "keybase" },
-    { title = "CV", iconset="fa", url = "https://raw.githubusercontent.com/pant03/cv/master/CV_JoseAlonso.pdf", icon = "file-pdf" },
+    { title = "CV", iconset="fa", url = "https://github.com/alonsomoya/cv/raw/master/CV_JoseAlonso.pdf", icon = "file-pdf" },
     { title = "Phone", iconset="fa", url = "", onclick = "Calendly.initPopupWidget({url: 'https://calendly.com/josealonso/informal'});return false;", icon = "phone" },
 
 ]
