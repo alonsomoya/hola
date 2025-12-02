@@ -1,54 +1,49 @@
-base_url = "alonsomoya.com"
+# Site configuration
+base_url = "https://alonsomoya.com"
 title = "Hola"
 description = "💻 ✈️ 🚴 🏂 🥘"
-
-# The default language; used in feeds.
 default_language = "en"
-
-# The site theme to use.
 theme = "hallo"
-
 compile_sass = false
+build_search_index = false
+
+# Markdown / Syntax highlighting
+[markdown]
 highlight_code = true
 highlight_theme = "boron"
 
-build_search_index = false
-generate_feed = true
-feed_filename = "index.xml"
-
-############################
+# Extra fields for templates
 [extra]
 greeting = "¡Hola!"
-
 iam = "I am"
 
+# Links for the homepage
 links = [
-    { title = "E-Mail", url = "mailto:jose@alonsomoya", iconset = "fas", icon = "envelope" },
-    { title = "Linkedin", url = "https://www.linkedin.com/in/jjavieralonso/", icon = "linkedin" },
+    { title = "E-Mail", url = "mailto:jose@alonsomoya.com", iconset = "fas", icon = "envelope" },
+    { title = "LinkedIn", url = "https://www.linkedin.com/in/jjavieralonso/", icon = "linkedin" },
     { title = "GitHub", url = "https://github.com/alonsomoya/", icon = "github" },
 #    { title = "Twitter", url = "https://twitter.com/JJAlonso91", icon = "twitter" },
     { title = "Instagram", url = "https://www.instagram.com/jose.alo/", icon = "instagram" },
-    { title = "Pubkey", iconset="fa", url = "https://keybase.io/alonsomoya/pgp_keys.asc", icon = "key" },
-    { title = "Keybase", iconset="fab", url = "https://keybase.io/alonsomoya", icon = "keybase" },
-    { title = "CV", iconset="fa", url = "https://github.com/alonsomoya/cv/raw/master/CV_JoseAlonso.pdf", icon = "file-pdf" },
-    { title = "Phone", iconset="fa", url = "", onclick = "Calendly.initPopupWidget({url: 'https://calendly.com/josealonso/informal'});return false;", icon = "phone" },
-
+    { title = "Pubkey", url = "https://keybase.io/alonsomoya/pgp_keys.asc", iconset="fa", icon = "key" },
+    { title = "Keybase", url = "https://keybase.io/alonsomoya", iconset="fab", icon = "keybase" },
+    { title = "CV", url = "https://github.com/alonsomoya/cv/raw/master/CV_JoseAlonso.pdf", iconset="fa", icon = "file-pdf" },
+    { title = "Phone", url = "", onclick = "Calendly.initPopupWidget({url: 'https://calendly.com/josealonso/informal'});return false;", iconset="fa", icon = "phone" }
 ]
 
+# Author information
 [extra.author]
-name = "Jose"
+name = "Jose Alonso"
+homepage = "https://alonsomoya.com"
 
+# Theme colors for templates
 [extra.theme]
 background = "#6FCDBD"
 foreground = "#FFF"
 hover = "#333"
 
-[author]
-name = "Jose Alonso"
-homepage = "https://alonsomoya.com"
-
-[original]
-author =  "Jan Baudisch/Emiel Hollander"
+# Original theme info
+[extra.original]
+author = "Jan Baudisch / Emiel Hollander"
 homepage = "https://janbaudisch.dev / https://themes.gohugo.io/theme/hallo-hugo/"
 repo = "https://github.com/EmielH/hallo-hugo"
 
